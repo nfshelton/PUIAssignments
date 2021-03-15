@@ -61,81 +61,45 @@ nav li{
 	margin: .5em;
 }
 
-/* shop button in hero message 
-====================*/
-.button1 {
-	font-size: 1.5rem;
-	background-color: rgba(191, 61, 82, 1);
-	border-radius: 6px;
-	width: 350px;
-	height: 60px;
-	color: white;
-	padding: 15px 32px;
-	display: inline-block;
-	position: absolute;
-	top: 21.9em;
-	float: center;
-	right:50%;
-	left:36%;
-}
-
-/* home hero area 
-==========================*/
-.home-hero{
-	background-color: rgba(119, 142, 147, 1);
-	padding: 1.6em 0;
-	font-size: 2em;
-	color: #FFF;
-}
-
-/* getting the three main page images in a row!!!!!! 
-===========================================*/
+/* rectangle
+============================ */
+.rectangle {
+  height: 550px;
+  max-width: 100%;
+  background-color: rgba(119, 142, 147, 1);
+  border-radius:8px;
+  }
+  /* images
+============================ */
 img{ 
-	height: 450px;
-	filter: brightness(80%);
-	border-radius: 6px;
+  border-radius: 6px;
+  height: auto;
+  max-width: 50%;
+  position:relative; 
+  float: left;
+  top: -30.5em;
+  padding-left:30px;
 }
-
-.row {
-  display: flex;
+.pillow-name{
+  position:absolute;
+  float:right;
+  padding-left:40em;
+  padding-right: 20px;
+  color:white;
+  padding-bottom:0px;
+  top: 20em;
 }
-
-.column {
-  flex: 33.33%;
-  padding: 5px;
+.size{
+  top:50em;
 }
-
-/* browse pillows button at the bottom of the home pg
-==========================*/
-
-.button2{
-	font-size:1.3rem;
-	background-color:rgba(229, 192, 182, 1);
-	color: white;
-	border:none;
-	border-radius:6px;
-	padding: 10px 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.Add-Cart {
+  font-size: 1.5rem;
+  background-color: white;
+  border-radius: 6px;
+  width: 300px;
+  height: 60px;
+  color: white;
+  position: relative;
+  top: -40em;
+  padding-left:100px;
+ }
