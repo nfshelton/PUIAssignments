@@ -64,9 +64,9 @@ nav li{
 /* rectangle
 ============================ */
 .rectangle {
-  height: 650px;
+  height: 550px;
   max-width: 18%;
-  background-color: #555;
+  background-color: rgba(229, 192, 182, 1);
   border-radius:8px;
 }
 
@@ -79,6 +79,8 @@ nav li{
   padding-left:20px;
   position: absolute;
   top: 17em;
+  color: rgba(84, 87, 115, 1);
+
 }
 /* size of the pillow */
 .filter-headersize{
@@ -88,6 +90,7 @@ nav li{
   top: 22em;
   padding-top:1px;
   padding-left: 20px;
+  color: rgba(84, 87, 115, 1);
 }
 .pillowsize-checkboxes{
   float:left;
@@ -95,12 +98,92 @@ nav li{
   padding-left:20px;
   text-align: left;
   top: 25em;
-}
+  color: rgba(84, 87, 115, 1);
 
+}
+/* price of the pillow and style */
+.price-and-style-filters{
+  float:left;
+  text-align: left;
+  padding-left: 20px;
+  position: absolute;
+  top: 29em;
+  color: rgba(84, 87, 115, 1);
+
+}
 /* images
 ============================ */
 img{ 
   border-radius: 6px;
   height: auto;
-  max-width: 20%;
+  max-width: 70%;
+  border: 10px solid rgba(229, 192, 182, 1);
 }
+/* grid */
+.row {
+  display: flex;
+  padding-left: 190px;
+  position: relative;
+  top:-34.6em;
+}
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.column h2 {
+  background-color:rgba(119, 142, 147, 1);
+  padding-top: 20px;
+  padding-left:10px;
+  padding-right:10px;
+  top:10em;
+}
+.column button{
+  background-color: rgba(84, 87, 115, 1);
+  border-radius: 6px;
+  color: white;
+  display: inline-block;
+  position: absolute;
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
